@@ -58,7 +58,7 @@ const SetupForm = () => {
               can't generate questions, please try different options
             </p>
           )}
-          <button type="submit" className="submit-btn">
+          <button type="submit" className="submit-btn" onClick={handleSubmit}>
             start
           </button>
         </form>
